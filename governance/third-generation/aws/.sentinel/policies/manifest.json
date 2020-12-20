@@ -1,0 +1,70 @@
+{
+	"records": [
+		{
+			"key": "require-private-acl-and-kms-for-s3-buckets",
+			"source": "./require-private-acl-and-kms-for-s3-buckets.sentinel",
+			"sourceSum": "",
+			"dest": "/Users/gulrajan/TERRAFORM_IAC_POC/POLICIES/GITHUB/SENTINEL-POLICIES/VERSIONCONTROL/terraform-guides/governance/third-generation/aws/require-private-acl-and-kms-for-s3-buckets.sentinel"
+		},
+		{
+			"key": "restrict-assumed-roles-by-workspace",
+			"source": "./restrict-assumed-roles-by-workspace.sentinel",
+			"sourceSum": "",
+			"dest": "/Users/gulrajan/TERRAFORM_IAC_POC/POLICIES/GITHUB/SENTINEL-POLICIES/VERSIONCONTROL/terraform-guides/governance/third-generation/aws/restrict-assumed-roles-by-workspace.sentinel"
+		},
+		{
+			"key": "restrict-availability-zones",
+			"source": "./restrict-availability-zones.sentinel",
+			"sourceSum": "",
+			"dest": "/Users/gulrajan/TERRAFORM_IAC_POC/POLICIES/GITHUB/SENTINEL-POLICIES/VERSIONCONTROL/terraform-guides/governance/third-generation/aws/restrict-availability-zones.sentinel"
+		},
+		{
+			"key": "restrict-ingress-sg-rule-cidr-blocks",
+			"source": "./restrict-ingress-sg-rule-cidr-blocks.sentinel",
+			"sourceSum": "",
+			"dest": "/Users/gulrajan/TERRAFORM_IAC_POC/POLICIES/GITHUB/SENTINEL-POLICIES/VERSIONCONTROL/terraform-guides/governance/third-generation/aws/restrict-ingress-sg-rule-cidr-blocks.sentinel"
+		},
+		{
+			"key": "restrict-ami-owners",
+			"source": "./restrict-ami-owners.sentinel",
+			"sourceSum": "",
+			"dest": "/Users/gulrajan/TERRAFORM_IAC_POC/POLICIES/GITHUB/SENTINEL-POLICIES/VERSIONCONTROL/terraform-guides/governance/third-generation/aws/restrict-ami-owners.sentinel"
+		},
+		{
+			"key": "restrict-current-ec2-instance-type",
+			"source": "./restrict-current-ec2-instance-type.sentinel",
+			"sourceSum": "",
+			"dest": "/Users/gulrajan/TERRAFORM_IAC_POC/POLICIES/GITHUB/SENTINEL-POLICIES/VERSIONCONTROL/terraform-guides/governance/third-generation/aws/restrict-current-ec2-instance-type.sentinel"
+		},
+		{
+			"key": "restrict-launch-configuration-instance-type",
+			"source": "./restrict-launch-configuration-instance-type.sentinel",
+			"sourceSum": "",
+			"dest": "/Users/gulrajan/TERRAFORM_IAC_POC/POLICIES/GITHUB/SENTINEL-POLICIES/VERSIONCONTROL/terraform-guides/governance/third-generation/aws/restrict-launch-configuration-instance-type.sentinel"
+		},
+		{
+			"key": "enforce-mandatory-tags",
+			"source": "./enforce-mandatory-tags.sentinel",
+			"sourceSum": "",
+			"dest": "/Users/gulrajan/TERRAFORM_IAC_POC/POLICIES/GITHUB/SENTINEL-POLICIES/VERSIONCONTROL/terraform-guides/governance/third-generation/aws/enforce-mandatory-tags.sentinel"
+		},
+		{
+			"key": "restrict-assumed-roles",
+			"source": "./restrict-assumed-roles.sentinel",
+			"sourceSum": "",
+			"dest": "/Users/gulrajan/TERRAFORM_IAC_POC/POLICIES/GITHUB/SENTINEL-POLICIES/VERSIONCONTROL/terraform-guides/governance/third-generation/aws/restrict-assumed-roles.sentinel"
+		},
+		{
+			"key": "restrict-ec2-instance-type",
+			"source": "./restrict-ec2-instance-type.sentinel",
+			"sourceSum": "",
+			"dest": "/Users/gulrajan/TERRAFORM_IAC_POC/POLICIES/GITHUB/SENTINEL-POLICIES/VERSIONCONTROL/terraform-guides/governance/third-generation/aws/restrict-ec2-instance-type.sentinel"
+		},
+		{
+			"key": "restrict-db-instance-engines",
+			"source": "./restrict-db-instance-engines.sentinel",
+			"sourceSum": "",
+			"dest": "/Users/gulrajan/TERRAFORM_IAC_POC/POLICIES/GITHUB/SENTINEL-POLICIES/VERSIONCONTROL/terraform-guides/governance/third-generation/aws/restrict-db-instance-engines.sentinel"
+		}
+	]
+}

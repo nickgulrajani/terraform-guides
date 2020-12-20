@@ -3,7 +3,9 @@
 
 # Import common-functions/tfstate-functions/tfstate-functions.sentinel
 # with alias "state"
-import "tfstate-functions" as state
+#import "tfstate-functions" as state
+#import "tfplan/v2" as tfplan
+import "tfstate/v2" as state
 
 # Allowed EC2 Instance Types
 # Include "null" to allow missing or computed values
