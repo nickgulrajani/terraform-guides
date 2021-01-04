@@ -1,9 +1,18 @@
 terraform {
   required_version = ">= 0.11.1"
 }
+terraform {
+  backend "remote" {
+    organization = "wwtatctrialaccount"
+    workspaces {
+      name = "gcptestsentinel"
+    }
+  }
+}
 
 variable "gcp_credentials" {
   description = "GCP credentials needed by google provider"
+  default = "CREDENTIALS.json"
 }
 
 variable "gcp_project" {
@@ -36,19 +45,19 @@ variable "image" {
 }
 
 provider "google" {
-  credentials = "${var.gcp_credentials}"
-  project     = "${var.gcp_project}"
-  region      = "${var.gcp_region}"
+  credentials = var.gcp_credentials
+  project     = var.gcp_project
+  region      = var.gcp_region
 }
 
 resource "google_compute_instance" "demo" {
-  name         = "${var.instance_name}"
-  machine_type = "${var.machine_type}"
-  zone         = "${var.gcp_zone}"
+  name         = var.instance_name
+  machine_type = var.machine_type
+  zone         = var.gcp_zone
 
   boot_disk {
     initialize_params {
-      image = "${var.image}"
+      image = var.image
     }
   }
 
@@ -63,5 +72,5 @@ resource "google_compute_instance" "demo" {
 }
 
 output "external_ip"{
-  value = "${google_compute_instance.demo.network_interface.0.access_config.0.nat_ip}"
+  value = google_compute_instance.demo.network_interface.0.access_config.0.nat_ip
 }

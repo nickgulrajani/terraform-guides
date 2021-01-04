@@ -4,10 +4,10 @@ terraform {
 
 terraform {
   backend "remote" {
-    organization = "wwtatctrialaccount"
+    organization = "wwtmulticloud"
 
     workspaces {
-      name = "awscloudservice"
+      name = "terraform-guides"
     }
   }
 }
